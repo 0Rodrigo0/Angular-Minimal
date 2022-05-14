@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-Angular CLI: 13.3.5
-Node: 14.18.1
-Package Manager: npm 6.14.15
+Angular CLI: 13.3.5 </br>
+Node: 14.18.1 </br>
+Package Manager: npm 6.14.15 </br>
 
 ## Development server
 
