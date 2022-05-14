@@ -15,11 +15,18 @@
 }
 
 span {
-  width: 100vw;
-  height: 100vh;
-  font-size: 13.5rem;
+  font-size: 13rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-family: "Bowlby One", cursive;
+}
+
+p {
+  height: 25vh;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: "Maven Pro", sans-serif;
 }
