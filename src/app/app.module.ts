@@ -7,6 +7,7 @@ import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-comp
 import { NavComponent } from './primeiro-componente/nav/nav.component';
 import { FooterComponent } from './primeiro-componente/footer/footer.component';
 import { ContentComponent } from './primeiro-componente/content/content.component';
+import { LandingPageComponent } from './primeiro-componente/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContentComponent } from './primeiro-componente/content/content.componen
     PrimeiroComponenteComponent,
     NavComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
