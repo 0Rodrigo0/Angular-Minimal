@@ -1,13 +1,14 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-componente.component';
-import { NavComponent } from './primeiro-componente/nav/nav.component';
-import { FooterComponent } from './primeiro-componente/footer/footer.component';
-import { ContentComponent } from './primeiro-componente/content/content.component';
-import { LandingPageComponent } from './primeiro-componente/landing-page/landing-page.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { PrimeiroComponenteComponent } from "./primeiro-componente/primeiro-componente.component";
+import { NavComponent } from "./primeiro-componente/nav/nav.component";
+import { FooterComponent } from "./primeiro-componente/footer/footer.component";
+import { ContentComponent } from "./primeiro-componente/content/content.component";
+import { LandingPageComponent } from "./primeiro-componente/landing-page/landing-page.component";
+import { CarrousselComponent } from "./primeiro-componente/carroussel/carroussel.component";
 
 @NgModule({
   declarations: [
@@ -16,13 +17,11 @@ import { LandingPageComponent } from './primeiro-componente/landing-page/landing
     NavComponent,
     FooterComponent,
     ContentComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    CarrousselComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
