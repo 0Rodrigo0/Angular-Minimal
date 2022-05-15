@@ -1,14 +1,13 @@
 .container-nav {
-  color: rgb(231, 221, 221);
-  position: fixed;
   height: 10vh;
-  width: 100vw;
+  max-width: 100vw;
+  position: absolute;
 }
 
 .nav-items {
-  background-color: rgb(0, 0, 0, 0.5);
+  color: rgb(231, 221, 221);
   height: 10vh;
-  width: 100vw;
+  width: 97vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
