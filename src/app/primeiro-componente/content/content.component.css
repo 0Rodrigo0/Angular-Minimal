@@ -30,3 +30,7 @@ p {
   justify-content: center;
   font-family: "Maven Pro", sans-serif;
 }
+
+.informacoes {
+  height: 80vh;
+}

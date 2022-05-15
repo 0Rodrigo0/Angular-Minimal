@@ -1,12 +1,12 @@
-.container {
-  color: rgb(201, 191, 191);
+.container-nav {
+  color: rgb(231, 221, 221);
   position: fixed;
   height: 10vh;
   width: 100vw;
-  display: flex;
 }
 
 .nav-items {
+  background-color: rgb(0, 0, 0, 0.5);
   height: 10vh;
   width: 100vw;
   display: flex;
