@@ -10,6 +10,8 @@ import { ContentComponent } from "./primeiro-componente/content/content.componen
 import { LandingPageComponent } from "./primeiro-componente/landing-page/landing-page.component";
 import { CarrousselComponent } from "./primeiro-componente/carroussel/carroussel.component";
 import { ButtonsComponent } from "./primeiro-componente/buttons/buttons.component";
+import { LoginPageComponent } from "./primeiro-componente/login-page/login-page.component";
+import { SignInComponent } from "./primeiro-componente/sign-in/sign-in.component";
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ButtonsComponent } from "./primeiro-componente/buttons/buttons.componen
     LandingPageComponent,
     CarrousselComponent,
     ButtonsComponent,
+    LoginPageComponent,
+    SignInComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
