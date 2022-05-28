@@ -7,12 +7,16 @@
         <input type="text" name="email" placeholder="E-mail" />
         <input type="password" name="password" placeholder="Senha" />
         <input type="password" name="password2" placeholder="Repita a senha" />
-        <input type="submit" name="signup_submit" value="Sign me up" />
+        <input
+          type="submit"
+          name="signup_submit"
+          value="Bora lá"
+          routerLink="/login"
+        />
       </div>
 
       <div class="right">
-        <span class="loginwith">Sign in with<br />social network</span>
-
+        <span class="loginwith"><br /></span>
         <button class="social-signin facebook">Entrar com facebook</button>
         <button class="social-signin twitter">Entrar com Twitter</button>
         <button class="social-signin google">Entrar com Google+</button>
@@ -21,4 +25,5 @@
     </div>
   </div>
 </div>
+<app-footer></app-footer>
 <router-outlet></router-outlet>

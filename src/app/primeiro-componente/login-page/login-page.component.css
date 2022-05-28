@@ -55,12 +55,13 @@ h6 {
   padding-bottom: 3rem;
 }
 
-#signin .logo {
-  margin-bottom: 8vh;
-}
-
-#signin .logo img {
-  width: 300px;
+.login {
+  color: rgb(212, 208, 208);
+  font-family: "Maven Pro", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 #signin label {
